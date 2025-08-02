@@ -1,0 +1,87 @@
+# =====================================
+# REACT LEARNING PROJECTS - PARENT .GITIGNORE
+# This will ignore node_modules in ALL subfolders
+# =====================================
+
+# Node.js Dependencies (RECURSIVE - all subfolders)
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/package-lock.json
+
+# Build outputs (RECURSIVE - all subfolders)
+**/dist/
+**/build/
+**/.vite/
+
+# Environment files (RECURSIVE)
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# IDE and Editor files (RECURSIVE)
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/*~
+
+# OS generated files (RECURSIVE)
+**/.DS_Store
+**/.DS_Store?
+**/._*
+**/.Spotlight-V100
+**/.Trashes
+**/ehthumbs.db
+**/Thumbs.db
+
+# Logs (RECURSIVE)
+**/logs/
+**/*.log
+
+# Coverage and test outputs (RECURSIVE)
+**/coverage/
+**/.nyc_output
+
+# Dependency directories (RECURSIVE)
+**/jspm_packages/
+
+# Optional caches (RECURSIVE)
+**/.npm
+**/.eslintcache
+
+# Runtime data (RECURSIVE)
+**/pids/
+**/*.pid
+**/*.seed
+**/*.pid.lock
+
+# Yarn files (RECURSIVE)
+**/.yarn-integrity
+**/.pnp
+**/.pnp.js
+
+# Local Netlify folder (RECURSIVE)
+**/.netlify
+
+# =====================================
+# PROJECT SPECIFIC IGNORES
+# =====================================
+
+# Ignore any temporary folders
+temp/
+tmp/
+scratch/
+
+# Ignore any zip/archive files
+*.zip
+*.rar
+*.tar.gz
+
+# Personal notes
+notes.txt
+todo.md
+**/personal-notes.md
