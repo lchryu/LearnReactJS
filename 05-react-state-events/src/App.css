@@ -1,0 +1,207 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.counter {
+  background: white;
+  border: 2px solid #e1e5e9;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.counter h2 {
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+.counter-display {
+  margin: 20px 0;
+}
+
+.count-number {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #667eea;
+  display: inline-block;
+  min-width: 100px;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.counter-buttons button {
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.counter-buttons button:hover {
+  background: #5a67d8;
+  transform: scale(1.1);
+}
+
+.counter-buttons button:active {
+  transform: scale(0.95);
+}
+
+
+
+/*text input css*/
+/* Thêm vào cuối file App.css hiện tại */
+
+.text-input {
+  background: white;
+  border: 2px solid #e1e5e9;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-input h2 {
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.text-field {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 1.1rem;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.text-field:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.clear-btn {
+  padding: 12px 20px;
+  background: #e53e3e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.clear-btn:hover {
+  background: #c53030;
+}
+
+.text-display {
+  background: #f7fafc;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.text-display p {
+  margin: 10px 0;
+  color: #4a5568;
+}
+
+/*toggle component css*/
+.toggle-switch {
+  background: white;
+  border: 2px solid #e1e5e9;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-switch h2 {
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+.switch-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.switch {
+  width: 60px;
+  height: 30px;
+  background: #ccc;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.switch.on {
+  background: #4CAF50;
+}
+
+.switch-handle {
+  width: 26px;
+  height: 26px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.switch.on .switch-handle {
+  transform: translateX(30px);
+}
+
+.switch-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #667eea;
+  min-width: 40px;
+}
+
+.status-display {
+  background: #f7fafc;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  margin-top: 20px;
+}
+
+.status-display p {
+  margin: 10px 0;
+  color: #4a5568;
+}
