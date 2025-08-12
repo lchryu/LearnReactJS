@@ -59,14 +59,12 @@ function TextInput() {
     </div>
   );
 }
-// Component 3: Toggle Switch với boolean state
+//  Component with boolean state
+
 function ToggleSwitch() {
-  const [isOn, setIsOn] = useState(false);  // Boolean state
+  const [isOn, setIsOn] = useState(false); // Boolean state
 
-  const handleToggle = () => {
-    setIsOn(!isOn);  // Toggle: true -> false, false -> true
-  };
-
+  const handleToggle = () => setIsOn(!isOn) // Toggle: true --> false, false --> true
   return (
     <div className="toggle-switch">
       <h2>🔄 Toggle Switch</h2>
@@ -79,11 +77,6 @@ function ToggleSwitch() {
           {isOn ? 'ON' : 'OFF'}
         </span>
       </div>
-
-      <div className="status-display">
-        <p><strong>Status:</strong> {isOn ? '✅ Enabled' : '❌ Disabled'}</p>
-        <p><strong>Mode:</strong> {isOn ? 'Dark Mode' : 'Light Mode'}</p>
-      </div>
     </div>
   );
 }
@@ -94,7 +87,6 @@ function App() {
       <h1>Tutorial 5: State and Events</h1>
       <Counter />
       <TextInput />
-      <ToggleSwitch />
     </div>
   );
 }
